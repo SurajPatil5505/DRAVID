@@ -1,32 +1,103 @@
-# Prerequisites
-*.d
+# OS-generated files
+.DS_Store
+Thumbs.db
+*.swp
 
-# Compiled Object files
-*.slo
-*.lo
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Build system files
+/build/
+out/
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.a
 *.so
+*.so.*
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.stackdump
+
+# Python dependencies
+venv/
+__pycache__/
+*.egg-info/
+
+# Node.js dependencies (if using a web dashboard)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.vcxproj
+*.xcodeproj
+
+# GStreamer temporary files
+gst-launch-*
+*.dot
+*.bak
+
+# AI/ML files
+checkpoints/
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.pth
+*.weights
+
+# Docker files (if using containers)
+*.pid
+*.tar
+*.img
+*.qcow2
+*.overlay
+
+# Blockchain or database files
+*.ldb
+*.db
+*.log
+*.lock
+
+# Raspberry Pi-specific files
+*.elf
+*.hex
+*.bin
 *.out
-*.app
+*.img
+*.dtbo
+*.dtb
+*.deb
+
+# GStreamer debug logs
+gst-debug-*
+gstinfo-*
+
+# Security files
+.env
+.env.*
+secrets.json
+config.json
+credentials.json
